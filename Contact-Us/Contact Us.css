@@ -1,0 +1,188 @@
+body {
+    background-color: rgb(236, 213, 213);
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    scroll-behavior: smooth;
+   }
+ body scrollable-div {
+    max-height: 400px;
+    overflow: auto;
+}
+.About-button{
+    background-color:  rgb(236, 213, 213);
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .About-button:hover{
+          color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .About-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+ 
+ .Events-button{
+    background-color:  rgb(236, 213, 213);
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .Events-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .Events-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+ 
+ .Resources-button{
+    background-color:  rgb(236, 213, 213);
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .Resources-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .Resources-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+ 
+ .Contact-button{
+    background-color:  rgb(236, 213, 213);
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .Contact-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .Contact-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+
+ .StudentProfile-button{
+    background-color: rgb(236, 213, 213);
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:  black;
+}
+.StudentProfile-button:hover{
+    color: gold;
+    transition: background-color 0.5s, color 0.5s;
+}
+.StudentProfile-button:active{
+    font-size: 8px;
+    opacity: 0.7;
+    transition: 0.4s; 
+}
+.container{
+    width: 80% ;
+    margin: 50px auto;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background:#1c00b5;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display:block;
+    color: #1c00b5; 
+}
+
+button{
+    background-color:  rgb(9, 9, 136);;
+    width:100px;
+    border: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(28,0,101,0.3);
+}
+.contact-left h3{
+    color:  rgb(9, 9, 136);;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}

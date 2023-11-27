@@ -1,0 +1,269 @@
+body {
+    background-color:gainsboro;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    scroll-behavior: smooth;
+   }
+   .body scrollable-div {
+    max-height: 300%;
+    overflow: auto;
+}
+   
+
+   h1 {
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: bolder;
+    padding-top:50px;
+    margin-right: 36%;
+    padding: 0;
+
+   }
+   .content-wrapper{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6%;
+    position: relative;
+
+   }
+   .content-wrapper img{
+    width: 100%;
+    height: 300px;
+    border-radius: 1px;
+    margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+   }
+   .text-wrapper{
+    position: absolute;
+    right: 50px;
+    top:50px;
+    transform: translate(-50,-50);
+   }
+   .text-wrapper h1{
+    text-align: center;
+    color: white;
+   }
+   .About-button{
+    background-color:gainsboro;
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .About-button:hover{
+          color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .About-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+
+ .Events-button{
+    background-color:gainsboro;
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+ }
+ .Events-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+ }
+ .Events-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+ }
+
+.Resources-button{
+    background-color:gainsboro;
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+}
+.Resources-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+}
+.Resources-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+}
+
+.Contact-button{
+    background-color:gainsboro;
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:black;
+}
+.Contact-button:hover{
+    color: gold;
+          transition: background-color 0.5s, color 0.5s;
+}
+.Contact-button:active{
+    font-size: 10px;
+      opacity: 0.7;
+      transition: 0.4s;
+}
+
+.StudentProfile-button{
+    background-color:gainsboro;
+    color: none; 
+    border: none;
+    height: 36px; 
+    width: 110px;
+    border-radius: 2px; 
+    cursor: pointer;
+    color:  black;
+}
+.StudentProfile-button:hover{
+    color: gold;
+    transition: background-color 0.5s, color 0.5s;
+}
+.StudentProfile-button:active{
+    font-size: 8px;
+    opacity: 0.7;
+    transition: 0.4s; 
+}
+.UndergraduateProgrammes-button{
+    font-size: 34px;
+    margin-top: 0%;
+    color:  rgba(4, 4, 161, 0.879);
+    background-color: gainsboro;
+    border: none; 
+    font-weight: bold; 
+}
+
+
+
+.container {
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+section{
+    margin-top: 25%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+
+section{
+    margin-top: 25%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+section{
+    margin-top: 10%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+section{
+    margin-top: 10%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+section{
+    margin-top: 10%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+section{
+    margin-top: 10%;
+    padding-top: 15%;
+    width: 48%;
+    box-sizing: border-box; 
+    border: 5px #333; 
+}
+
+
+
+
+.InformationTechnology-button{
+    font-size: 34px;
+    margin-top: 0%;
+    color:  rgba(4, 4, 161, 0.879);
+    background-color: gainsboro;
+    border: none; 
+    font-weight: bold; 
+    margin-left: 100%;
+}
+
+
+
+.ComputerScience-button{
+    font-size: 34px;
+    margin-top: 0%;
+    margin-right: 25%;
+    padding: auto;
+    color:  rgba(4, 4, 161, 0.879);
+    background-color: gainsboro;
+    border: none; 
+    font-weight: bold; 
+}
+
+
+h2{
+    color: rgba(6, 6, 116, 0.879);
+
+}
+h3{
+    color:  rgba(4, 4, 161, 0.879); 
+    font-weight: bold;
+    font-size: 34px;
+    font-family: Arial;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+}
+.content-table td{
+    font-weight: 0;
+    padding: 12px 17px;
+}
+.Level100-button{
+    background-color: rgba(233, 206, 51, 0.596);
+    color: blue;
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}

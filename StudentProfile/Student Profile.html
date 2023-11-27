@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Student style.css">
+    <title>Student Profile</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header-top">
+          <div class="container">
+            <div class="container main-menu"></div>
+        </div>
+        </div>
+        </header>
+
+        <section class="banner-area relative about-banner" id="Home">
+            <div class="overlay overlay-bg"></div>
+            <div class="container"></div>
+            <div class="row d-flex align-items-center justify-content-center"></div>
+            <div class="about-content col-lg-12"></div>
+          <div class="row align-items-center justify-content-between d-flex" style="margin-top: 30px;"></div>
+          <div id="logo">
+            <a href="/">
+          <img id="logo" src="https://cdn.schoolblocks.com/organizations/fee69347-112b-4d4c-bb03-063ddb54f350/blocks/d4185811-3cf4-4872-a80a-b368294fe99d/Computer%20Science%20White2.png" width="250" hight="150"alt="Computer Science Department Logo"/>
+            </a>
+          </div>
+    </section>
+
+    <a href="http://127.0.0.1:3000/About website.html"><button class="About-button">About</button></a>
+        <a href="http://127.0.0.1:3000/Events.html"> <button class="Events-button">Events</button></a>
+         <a href="http://127.0.0.1:3000/Resources.html"> <button class="Resources-button">Resources</button></a>
+        <a href="http://127.0.0.1:3000/Student Profile.html"><button class="StudentProfile-button">Student Profile</button></a>
+         <a href="http://127.0.0.1:3000/Contact Us.html"><button class="Contact-button">Contact</button></a><br>
+          
+
+
+        <div class="form-container">
+            <h1>Student Profile Form</h1>
+            <form id="profileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="major">Major:</label>
+                <input type="text" id="major" name="major" required>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+    
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="university">University:</label>
+                <input type="text" id="university" name="university" required>
+                
+                <label for="StudentId">Student Id:</label>
+                <input type="text" id="StudentId" name="StudentId" required>
+    
+                <label for="year">Year:</label>
+                <input type="text" id="year" name="year" required>
+    
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label> 
+                <input type="tel" id="phone" name="phone" required>
+    
+                <button type="button" onclick="generateProfile()">Generate Profile</button>
+            </form>
+        </div>
+    
+        <div class="profile-container" id="profileContainer" style="display: none;">
+            <img id="https://www.ccsrs.ca/img/default_profile.png" alt="Student Profile Picture">
+            <h1 id="profileName"></h1>
+            <h2 id="profileMajor"></h2>
+    
+            <section>
+                <h2>Personal Information</h2>
+                <p><strong>Date of Birth:</strong> <span id="profileDOB"></span></p>
+                <p><strong>Address:</strong> <span id="profileAddress"></span></p>
+            </section>
+    
+            <section>
+                <h2>Academic Information</h2>
+                <p><strong>University:</strong> <span id="profileUniversity"></span></p>
+                <p><strong>Year:</strong> <span id="profileYear"></span></p>
+                <p><strong>GPA:</strong> <span id="profileGPA"></span></p>
+            </section>
+    
+            <section>
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> <span id="profileEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="profilePhone"></span></p>
+            </section>
+        </div>
+    
+
+    <div class="profile-container">
+        <img src="https://www.esm.rochester.edu/uploads/employee-or-student-icon.jpg" alt="Student Profile Picture">
+        <h1>John Doe</h1>
+        <h2>Computer Science Major</h2>
+
+        <section> 
+            <h2>Personal Infromation</h2>
+            <p><strong>Date of Birth: </strong>January 1st, 2000</p>
+            <p><strong>Address:</strong>694 Main Street, Cityville</p>
+        </section>
+
+        <section>
+            <h2>Academic Information</h2>
+            <p><strong>University:</strong>University Of Ghana</p>
+            <P><strong>Department:</strong> Computer Science Department</P>
+            <p><strong>Year:</strong>2022/2023</p>
+            <p><strong>Student ID:</strong>138273992</p>
+            <p><strong>GPA:</strong>3.6</p>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> john.doe@ug.st.edu.gh</p>
+            <p><strong>Phone:</strong>##########</p>
+        </section>
+    </div>
+   
+</body>
+</html>
