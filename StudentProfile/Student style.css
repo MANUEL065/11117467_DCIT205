@@ -130,7 +130,7 @@ h1 {
     font-family: Arial;
     font-weight: bold;
     margin-left: 30%;
-    font-size: 46px;
+    font-size: 32px;
 }
 img {
      width: 150px;
@@ -141,6 +141,13 @@ img {
 h2{
     color: #555;
     font-weight: bold;
+}
+
+h3{
+    color: rgb(6, 6, 150);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 43px;
 }
 
 p {
@@ -166,4 +173,34 @@ input {
     box-sizing: border-box;
 }
 
+.generate-button{
+    font-size: 20px;
+    background: none;
+    color: rgb(202, 78, 202);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-white{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-right: 420px;
+    margin-bottom: 75px;
+    color: black;
+    margin-top: 24px;
+}
+
+.link-button{
+    border: none;
+    color: black;
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 95px;
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
 

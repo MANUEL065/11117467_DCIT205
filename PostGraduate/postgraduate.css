@@ -181,14 +181,14 @@ body{
 }
 
 #div1 {
-    margin-top: 30%;
+    margin-top: 26%;
     width: 48%;
     box-sizing: border-box;
     margin-left: 2%; 
     border: 2px;
 }
 #div2{
-    margin-top: 30%;
+    margin-top: 26%;
     width: 48%;
     box-sizing: border-box; 
     border: 2px;
@@ -230,4 +230,26 @@ body{
 .content-table td{
     font-weight: 0;
     padding: 12px 17px;
+}
+
+.text-white{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 430px;
+    margin-bottom: 100px;
+    color: black;
+    margin-top: 34px;
+}
+
+.link-button{
+    border: none;
+    color: black;
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 95px;
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    
 }

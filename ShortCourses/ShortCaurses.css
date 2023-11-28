@@ -137,11 +137,12 @@ body {
 
 h1 {
     font-family: Arial;
-    font-size: 46px;
+    font-size: 48px;
     font-weight: bold;
     padding-top:10px;
     text-align: center;
-   margin-right: 100px;
+   margin-right: 90px;
+   
     
 }
 
@@ -153,18 +154,18 @@ h2{
     color: rgb(9, 9, 136);
     font-size: 35px;
     font-weight: Arial;
-    margin-top: 32%;
+    margin-top: 25%;
     font-weight: bold;
 }
 .Register-button{
     border: None;
     color: white;
-    background-color: rgb(161, 119, 64);
+    background-color: rgb(176, 135, 83);
     font-size: 25px;
     padding: 20px;
-    margin-left: 36%;
+    margin-left: 39%;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .Register-button:active{
@@ -172,3 +173,33 @@ h2{
     background-color: white;
     transition: 0.4s; 
 }
+
+.text-white{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 350px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.link-button{
+    border: none;
+    color: white;
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 95px;
+    background: none;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.link-button:active{
+    color: gold
+}
+
+
+
+
+
+    
